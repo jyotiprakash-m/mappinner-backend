@@ -17,5 +17,5 @@ app.use("/api/pins", pinRoute);
 app.use("/api/users", userRoute);
 const PORT = process.env.PORT || 8800;
 app.listen(PORT, () => {
-    console.log('Backend server running!')
+    console.log('Backend server running!', PORT)
 })
